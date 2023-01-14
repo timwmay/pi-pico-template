@@ -8,7 +8,7 @@
             "executable": "${command:cmake.launchTargetPath}",
             "request": "launch",
             "servertype": "external",            
-            "gdbPath" : "arm-none-eabi-gdb",            
+            "gdbPath" : "arm-none-eabi-gdb",                        
             "gdbTarget": "your-openocd:3333",
             "svdFile": "${env:PICO_SDK_PATH}/src/rp2040/hardware_regs/rp2040.svd",
             "runToMain": true,            
