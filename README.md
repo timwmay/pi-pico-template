@@ -8,7 +8,7 @@ This is a Docker image for Raspberry Pi Pico development, which includes the fol
 - Required tools for Pi Pico development (e.g. cmake, make, gcc, gdb, etc.)
 
 ## Buiding the docker image    
-    $ docker build -t picodev/picodev_build:0.1 -f /devcontainer/DockerfilePico .
+    $ docker build -t picodev/picodev_build:0.1 -f .devcontainer/Dockerfile .
 
 ## Running the docker image
 The following command will run the docker image and mount the current directory to the docker container. This will allow you to edit the files on your host machine and compile them in the docker container.
