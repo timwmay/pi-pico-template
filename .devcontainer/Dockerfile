@@ -23,8 +23,7 @@ RUN apt-get -y update && apt-get install -y \
 # WORKDIR /usr/src
 
 # Install the SDK
-# ENV PICO_ROOT=/usr/src/pico
-ENV PICO_ROOT=pico
+ENV PICO_ROOT=/usr/src/pico
 RUN mkdir -p $PICO_ROOT
 
 # Install Pico-SDK
