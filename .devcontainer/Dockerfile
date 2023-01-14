@@ -1,4 +1,5 @@
-FROM debian:latest
+# FROM debian:latest
+FROM mcr.microsoft.com/devcontainers/cpp:0-debian-11
 
 LABEL description="Base Image for Pi Pico development"
 
