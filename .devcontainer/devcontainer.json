@@ -6,9 +6,11 @@
 		"dockerfile": "Dockerfile"
 	},
 	"extensions": [
-        "ms-vscode.cpptools",
-        "ms-vscode.cmake-tools",
-        "vadimcn.vscode-lldb",
+		"marus25.cortex-debug",
+		"ms-vscode.cpptools-extension-pack",
+        // "ms-vscode.cpptools",		
+        // "ms-vscode.cmake-tools",
+        // "vadimcn.vscode-lldb",
         "cheshirekow.cmake-format"
     ]
 
