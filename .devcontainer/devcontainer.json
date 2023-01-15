@@ -8,11 +8,20 @@
 	"extensions": [
 		"marus25.cortex-debug",
 		"ms-vscode.cpptools-extension-pack",
-        // "ms-vscode.cpptools",		
-        // "ms-vscode.cmake-tools",
-        // "vadimcn.vscode-lldb",
-        "cheshirekow.cmake-format"
+        "cheshirekow.cmake-format",					
+		"twxs.cmake",
+		"eamodio.gitlens",
+		"xaver.clang-format",
+		"chris-hock.pioasm"		
     ],
+
+	// "runArgs": [ 
+	// 	"--cap-add=SYS_PTRACE", 
+	// 	"--security-opt",
+	// 		"seccomp=unconfined", 
+	// 		"--device=/dev/bus/usb",
+	// 	"--device=/dev/ttyACM0"
+	// ],	
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},

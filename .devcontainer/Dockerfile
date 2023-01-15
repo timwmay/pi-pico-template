@@ -33,20 +33,20 @@ RUN git clone -b master https://github.com/raspberrypi/pico-sdk.git $PICO_SDK_PA
     git submodule update --init
 RUN echo "export PICO_SDK_PATH="$PICO_SDK_PATH >> ~/.bashrc
 
-# Install Pico Examples
-ENV PICO_EXAMPLES_PATH=$PICO_ROOT/pico-examples
-RUN git clone -b master https://github.com/raspberrypi/pico-examples.git $PICO_EXAMPLES_PATH
-RUN echo "export PICO_EXAMPLES_PATH="$PICO_EXAMPLES_PATH >> ~/.bashrc
+# # Install Pico Examples
+# ENV PICO_EXAMPLES_PATH=$PICO_ROOT/pico-examples
+# RUN git clone -b master https://github.com/raspberrypi/pico-examples.git $PICO_EXAMPLES_PATH
+# RUN echo "export PICO_EXAMPLES_PATH="$PICO_EXAMPLES_PATH >> ~/.bashrc
 
-# Install Pico Extras
-ENV PICO_EXTRAS_PATH=$PICO_ROOT/pico-extras
-RUN git clone -b master https://github.com/raspberrypi/pico-extras.git $PICO_EXTRAS_PATH
-RUN echo "export PICO_EXTRAS_PATH="$PICO_EXTRAS_PATH >> ~/.bashrc
+# # Install Pico Extras
+# ENV PICO_EXTRAS_PATH=$PICO_ROOT/pico-extras
+# RUN git clone -b master https://github.com/raspberrypi/pico-extras.git $PICO_EXTRAS_PATH
+# RUN echo "export PICO_EXTRAS_PATH="$PICO_EXTRAS_PATH >> ~/.bashrc
 
-# Install Pico Playground
-ENV PICO_PLAYGROUND_PATH=$PICO_ROOT/pico-playground
-RUN git clone -b master https://github.com/raspberrypi/pico-playground.git $PICO_PLAYGROUND_PATH
-RUN echo "export PICO_PLAYGROUND_PATH="$PICO_PLAYGROUND_PATH >> ~/.bashrc
+# # Install Pico Playground
+# ENV PICO_PLAYGROUND_PATH=$PICO_ROOT/pico-playground
+# RUN git clone -b master https://github.com/raspberrypi/pico-playground.git $PICO_PLAYGROUND_PATH
+# RUN echo "export PICO_PLAYGROUND_PATH="$PICO_PLAYGROUND_PATH >> ~/.bashrc
 
 # Install Picotool
 ENV PICOTOOL_PATH=$PICO_ROOT/picotool
